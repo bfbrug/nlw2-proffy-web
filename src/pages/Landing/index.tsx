@@ -25,7 +25,6 @@ const Landing: React.FC = () => (
           className="hero-image"
         />
         <div className="buttons-container">
-
           <Link to="/study" className="study">
             <img src={studyIcon} alt="Estudar" />
             Estudar
@@ -35,7 +34,6 @@ const Landing: React.FC = () => (
             <img src={giveClassesIcon} alt="Dar aulas" />
             Dar aulas
           </Link>
-
         </div>
 
         <span className="total-conections">
