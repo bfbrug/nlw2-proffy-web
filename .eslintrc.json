@@ -29,10 +29,6 @@
         "prettier"
     ],
     "rules": {
-      "jsx-a11y/anchor-is-valid": [ "error", {
-        "components": [ "Link" ],
-        "specialLink": [ "href" ]
-      }],
       "prettier/prettier": "error",
       "react-hooks/rules-of-hooks": "error",
       "react/jsx-one-expression-per-line": "off",
@@ -54,8 +50,8 @@
           "tsx": "never"
         }
       ]
-   },
-   "settings": {
+  },
+  "settings": {
     "import/resolver": {
       "typescript": {}
     }
