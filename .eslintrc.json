@@ -1,7 +1,8 @@
 {
     "env": {
         "browser": true,
-        "es6": true
+        "es6": true,
+        "jest": true
     },
     "extends": [
         "plugin:react/recommended",
@@ -29,6 +30,8 @@
         "prettier"
     ],
     "rules": {
+      "import/no-extraneous-dependencies": ["error",  {"devDependencies": true}],
+      "react/jsx-props-no-spreading": "off",
       "prettier/prettier": "error",
       "react-hooks/rules-of-hooks": "error",
       "react/jsx-one-expression-per-line": "off",
